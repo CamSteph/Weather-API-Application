@@ -35,6 +35,7 @@ class WeatherAPI{
             return;
         }catch(e){
             console.log('error is: ' + e);
+            alert('Oh, no! You\'ve entered invalid data. Please try again.');
         }
     }
 
